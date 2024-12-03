@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+    <column>
+        <name>idconsumo</name>
+        <type>serial</type>
+        <null>NO</null>
+    </column>
+    <column>
+        <name>tipo_servicio</name>
+        <type>character varying(8)</type>
+        <null>NO</null>
+    </column>
+    <column>
+        <name>consumo</name>
+        <type>double precision</type>
+    </column>
+    <column>
+        <name>fecha_medicion</name>
+        <type>timestamp</type>
+        <null>NO</null>
+    </column>
+    <column>
+        <name>importe</name>
+        <type>double precision</type>
+        <null>NO</null>
+    </column>
+     <column>
+        <name>fecha_factura</name>
+        <type>timestamp</type>
+    </column>
+    <constraint>
+        <name>idconsumo_pkey</name>
+        <type>PRIMARY KEY (idconsumo)</type>
+    </constraint>
+</table>

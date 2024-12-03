@@ -1,0 +1,11 @@
+/.htaccess
+/config.php
+/COPYING
+/Core
+/Dinamic
+/htaccess-sample
+/index.php
+/MyFiles
+/node_modules
+/replace_index_to_restore.php
+/vendor
